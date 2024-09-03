@@ -7,15 +7,15 @@ This is a Python SDK for interacting with the Bloghunch API. It provides an easy
 You can install the Bloghunch python SDK using pip:
 
 ```
-pip install bh-python-sdk
+pip install bloghunch
 ```
 
 ## Usage
 
-Here's a quick example of how to use the bh-python-sdk SDK:
+Here's a quick example of how to use the bloghunch SDK:
 
 ```python
-from bh-python-sdk import Bloghunch
+from bloghunch import Bloghunch
 
 # Initialize the Bloghunch client
 client = Bloghunch(key="your_api_key", domain="your_domain")
