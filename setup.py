@@ -9,6 +9,8 @@ setup(
     author="Bloghunch",
     author_email="support@bloghunch.com",
     description="A Python SDK for the Bloghunch API",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/bloghunch/bh-python-sdk",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
